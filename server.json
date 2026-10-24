@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.openbait/lookalike-domains",
+  "title": "OpenBait lookalike domains",
+  "description": "Find lookalike domains of a brand's website and see which resolve and what they show.",
+  "version": "1.0.0",
+  "websiteUrl": "https://openbait.com/tools/typosquat-check",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://openbait.com/api/mcp"
+    }
+  ]
+}
